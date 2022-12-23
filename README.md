@@ -34,5 +34,5 @@
 
 ##  ! [rejected]        main -> main (fetch first)
 ## error: failed to push some refs to 'https://github.com/../...git'
-**git pull --rebase origin main**
+**git pull --rebase origin main** # обновили ссылки
 
