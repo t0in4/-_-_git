@@ -28,3 +28,11 @@
 
 **git push -u origin main** # добавляем в github файлы расположенные локально
 
+# ошибки
+## error: remote origin already exists.
+**git remote rm origin** # удаляем удаленный репозиторий который мы неправильно инициализировали
+
+##  ! [rejected]        main -> main (fetch first)
+## error: failed to push some refs to 'https://github.com/../...git'
+**git pull --rebase origin main**
+
