@@ -41,6 +41,6 @@
 **git commit -m "added stuff"**  
 // if you create readme.md online  
 // there will be an error ![rejected] master -> master (fetch first)  
-// so, you have to   
-**git pull --rebase origin master**  
+// so, you have to git pull --rebase origin master  
+**git pull**  
 **git push origin master**  
