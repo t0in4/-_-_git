@@ -34,5 +34,13 @@
 
 ##  ! [rejected]        main -> main (fetch first)
 ## error: failed to push some refs to 'https://github.com/../...git'
-**git pull --rebase origin main** # обновили ссылки
+**git pull --rebase origin main** # обновили ссылки  
 
+# обновить репозиторий после локальных изменений  
+**git add .
+**git commit -m "added stuff"
+**// if you create readme.md online
+**// there will be an error ![rejected] master -> master (fetch first)
+**// so, you have to 
+**git pull --rebase origin master
+**git push origin master
