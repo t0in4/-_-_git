@@ -26,7 +26,15 @@
 
 **git remote add origin https://github.com/*<имя аккаунта>*/*<название репозитория>*.git**    # добавляем в git имя репозитория и аккаунта github
 
-**git push -u origin main** # добавляем в github файлы расположенные локально
+**git push -u origin main** # добавляем в github файлы расположенные локально, по умолчанию название основной ветки master, мы поменяли на main когда  
+                            # устанавливали git flow  
+**чтобы запушить в репозиторий из командной строки  
+в fine-grained token выбрать такие разрешения для репозитория
+Administration   read and write  
+Commit statuses  read and write  
+Contents         read and write  
+Deployments      read and write  
+Pull requests    read and write  
 
 # ошибки
 ## error: remote origin already exists.
