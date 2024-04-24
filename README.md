@@ -30,11 +30,9 @@
                             # устанавливали git flow  
 **чтобы запушить в репозиторий из командной строки  
 в fine-grained token выбрать такие разрешения для репозитория
-Administration   read and write  
-Commit statuses  read and write  
+
 Contents         read and write  
-Deployments      read and write  
-Pull requests    read and write  
+ 
 
 # ошибки
 ## error: remote origin already exists.
