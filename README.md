@@ -42,6 +42,9 @@ Contents         read and write
 ## error: failed to push some refs to 'https://github.com/../...git'
 **git pull --rebase origin main** # обновили ссылки  
 
+## fatal: Authentication failed 
+** git credential-cache exit
+
 # обновить репозиторий после локальных изменений  
 **git add .**  
 **git commit -m "added stuff"**  
