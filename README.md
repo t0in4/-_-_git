@@ -43,7 +43,7 @@ Contents         read and write
 **git pull --rebase origin main** # обновили ссылки  
 
 ## fatal: Authentication failed 
-** git credential-cache exit
+**git credential-cache exit
 
 # обновить репозиторий после локальных изменений  
 **git add .**  
