@@ -51,6 +51,8 @@ Contents         read and write
 **git commit -m "added stuff"**  
 // if you create readme.md online  
 // there will be an error ![rejected] master -> master (fetch first)  
-// so, you have to git pull --rebase origin master  
+// so, you have to git pull --rebase origin master
+// also works for ![rejected] main -> main (non-fast-forward)
+// error: failed to push some refs to "https://github.com/..git"
 **git pull**  
 **git push origin master**  
